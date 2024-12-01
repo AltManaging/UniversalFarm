@@ -17,7 +17,7 @@ local function Kick(reason)
     game:GetService("CoreGui").RobloxPromptGui.promptOverlay.ErrorPrompt.MessageArea.ErrorFrame.ErrorMessage.Text   = tostring(reason)
 end
 
-if string.find(tostring(identifyexecutor()), "Solara") or string.find(tostring(identifyexecutor()), "JJSploit") or string.find(tostring(identifyexecutor()), "Xeno") then
+if string.find(tostring(identifyexecutor()), "JJSploit") or string.find(tostring(identifyexecutor()), "Xeno") then
     setclipboard("discord.gg/universalfarm")
     Kick("Script does not support " .. tostring(identifyexecutor()) .. "! Join the discord server to see all valid executors. Invite has been copied to your clipboard")
 
